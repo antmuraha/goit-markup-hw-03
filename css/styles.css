@@ -1,0 +1,163 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --logo-first: var(--iris);
+  --color-primary: var(--navy-blue);
+  --color-secondary: var(--cloud);
+  --button-background: var(--iris);
+  --color-active: var(--ocean);
+  --color-paragraph: var(--slate);
+  --color-link: var(--navy-blue);
+  --color-address-link: var(--slate);
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+h2.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+h3.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+p {
+  color: var(--color-paragraph);
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--logo-first);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo > span {
+  color: var(--color-primary);
+}
+
+/* HEADER */
+
+.nav-link {
+  color: var(--color-link);
+}
+
+.address-link {
+  color: var(--color-address-link);
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+.address-link:hover,
+.address-link:active,
+.address-link:focus {
+  color: var(--color-active);
+}
+
+.address {
+  font-style: normal;
+}
+
+/* SECTION 1 STUDIO */
+
+.studio {
+  background: var(--color-primary);
+}
+
+.btn-service {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: var(--white);
+  background: var(--button-background);
+  cursor: pointer;
+}
+
+.btn-service:hover,
+.btn-service:active,
+.btn-service:focus {
+  background: var(--color-active);
+}
+
+/* SECTION 2 STRATEGY */
+.strategy {
+}
+
+/* SECTION 3 TEAM */
+.team {
+  background: var(--cloud);
+}
+
+.team-card {
+  background: var(--white);
+}
+
+.team-desc {
+  font-size: 16px;
+}
+
+/* SECTION 4 PORTFOLIO */
+.portfolio {
+}
+
+.footer {
+  background: var(--color-primary);
+}
+
+.footer .logo-tail {
+  color: var(--color-secondary);
+}
+
+.footer > .description {
+  color: var(--color-secondary);
+}
