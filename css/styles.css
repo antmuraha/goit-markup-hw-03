@@ -55,10 +55,12 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -140,7 +142,6 @@ a {
 
 /* HEADER */
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid var(--header-border-color);
 }
 
@@ -165,6 +166,7 @@ a {
 }
 
 .nav-link {
+  padding: 24px 0;
   color: var(--color-link);
 }
 
@@ -175,6 +177,7 @@ a {
 }
 
 .address-link {
+  padding: 24px 0;
   color: var(--color-address-link);
 }
 
@@ -323,7 +326,7 @@ a {
 }
 
 .footer {
-  padding: 100px;
+  padding: 100px 0;
   background: var(--color-primary);
 }
 
@@ -334,6 +337,7 @@ a {
 
 .footer .logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer .logo-tail {
