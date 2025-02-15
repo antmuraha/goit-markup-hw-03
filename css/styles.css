@@ -163,6 +163,7 @@ a {
 .header .container {
   line-height: 1.5;
   align-self: center;
+  justify-content: space-between;
 }
 
 .nav-link {
@@ -336,8 +337,8 @@ a {
 }
 
 .footer-logo {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .logo-tail {
