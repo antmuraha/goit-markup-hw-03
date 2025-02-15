@@ -336,7 +336,7 @@ a {
   flex-direction: column;
 }
 
-a.footer-logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
